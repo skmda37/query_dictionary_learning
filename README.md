@@ -107,7 +107,7 @@ Note: `joint_qdl` stands for joint query dictionary learning.
   title={Learning interpretable queries for explainable image classification with information pursuit},
   author={Kolek, Stefan and Chattopadhyay, Aditya and Chan, Kwan Ho Ryan and Andrade-Loarca, Hector and Kutyniok, Gitta and Vidal, Ren{\'e}},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  pages={TBD}, % Replace with actual page numbers when available
+  pages={TBD},
   year={2025}
 }
 ```
