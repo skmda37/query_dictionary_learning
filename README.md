@@ -45,7 +45,7 @@ Python 3.10.x and newer are supported.
 * `src/querylearning/data` folder where image datasets, clip image embeddings, and clip text embeddings of queries are stored. This folder is automatically created when you run the method for the first time.
 
 # Datasets
-Our experiments were done on
+Our repo handles the following datasets:
 
 * CIFAR-10
 * CIFAR-100
@@ -54,7 +54,7 @@ Our experiments were done on
 * Imagenet-100
 * Stanford-Cars
 
-The datasets CIFAR-10, CIFAR-100, RIVAL-10, and CUB-200 are downloaded automatically when running the method for the first time on the respective dataset. For Imagenet-100, you need to download the imagenet dataset manually into `src/querylearning/data/imagenet` from the [imagenet website](https://www.image-net.org/). For Stanford-Cars, you need to also download the dataset into `src/querylearning/data/stanford_cars` following the instructions on [kaggle datasets](kaggle site to download stanford cars dataset][https://www.kaggle.com/datasets/rickyyyyyyy/torchvision-stanford-cars?resource=download).
+The datasets CIFAR-10, CIFAR-100, RIVAL-10, and CUB-200 are downloaded automatically when running the method for the first time on the respective dataset. For Imagenet-100, you need to download the imagenet dataset manually into `src/querylearning/data/imagenet` from the [imagenet website](https://www.image-net.org/). For Stanford-Cars, you also need to download the dataset into `src/querylearning/data/stanford_cars` following the instructions on [kaggle datasets](kaggle site to download stanford cars dataset][https://www.kaggle.com/datasets/rickyyyyyyy/torchvision-stanford-cars?resource=download).
 
 
 # How to run
@@ -116,12 +116,3 @@ Note: `joint_qdl` stands for joint query dictionary learning.
 <div>
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 </div>
-
-
-## Stanford Cars download dataset
-[kaggle site to download stanford cars dataset][https://www.kaggle.com/datasets/rickyyyyyyy/torchvision-stanford-cars?resource=download]
-
-
-## TODOS
-
-- bigfile integration
