@@ -1,0 +1,15 @@
+data/
+**/wandb/
+src/querylearning/saved/
+src/querylearning/snapshots/
+src/querylearning/data/
+notebooks/
+**/logs/
+**/__pycache__
+*.pyc
+*.un
+*.swp
+*~
+sftp-config.json
+sftp-config-alt.json
+venv
