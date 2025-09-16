@@ -66,7 +66,7 @@ This repo can run V-IP with three different kind of dictionaries:
 
 The main entry point to train a model is `src/querylearning/main.py`. 
 
-Do `cd src/querylearning/main.py`.
+Do `cd src/querylearning`.
 
 ### Classic V-IP with Fixed Query Dictionary
 Run 
