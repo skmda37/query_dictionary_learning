@@ -1,0 +1,663 @@
+four-doors
+two-doors
+convertible
+hardtop
+sedan
+coupe
+hatchback
+wagon
+minivan
+SUV
+pickup truck
+cargo capacity
+luxury
+high-performance
+sports car
+hybrid
+electric
+gas-powered
+fuel-efficient
+manual transmission
+automatic transmission
+all-wheel drive
+rear-wheel drive
+front-wheel drive
+AWD
+RWD
+FWD
+towing capacity
+horsepower
+torque
+zero-to-sixty
+engine size
+V8 engine
+V6 engine
+four-cylinder engine
+turbocharged engine
+supercharged engine
+engine displacement
+twin-turbocharged
+electric motor
+battery capacity
+range
+charging speed
+off-road capability
+sport suspension
+standard suspension
+adjustable suspension
+adaptive suspension
+air suspension
+low ground clearance
+high ground clearance
+high-top clearance
+spare tire
+sunroof
+moonroof
+roof rack
+roof rails
+spoiler
+windshield wipers
+heated seats
+ventilated seats
+massaging seats
+power seats
+manual seats
+reclining seats
+memory seats
+seat belts
+seat material
+cloth seats
+leather seats
+sport seats
+bucket seats
+captain’s chairs
+third-row seating
+adjustable steering wheel
+tilt steering wheel
+telescoping steering wheel
+steering wheel controls
+steering wheel material
+power steering
+cruise control
+automatic climate control
+manual climate control
+dual-zone climate control
+triple-zone climate control
+ventilated front seats
+heated front seats
+heated rear seats
+rear-seat entertainment
+bluetooth connectivity
+USB ports
+auxiliary input
+HD radio
+satellite radio
+premium audio system
+surround sound
+navigation system
+backup camera
+rearview camera
+360-degree camera
+parking sensors
+blind spot monitoring
+lane departure warning
+lane keeping assist
+adaptive cruise control
+collision warning
+forward collision mitigation
+pedestrian detection
+automatic emergency braking
+automatic parking
+keyless entry
+keyless start
+push-button start
+remote start
+auto-dimming rearview mirror
+homeLink
+ambient lighting
+LED headlights
+Xenon headlights
+high-beam assist
+adaptive headlights
+fog lights
+daytime running lights
+LED taillights
+LED turn signals
+taillight design
+headlight design
+front grille design
+body color
+metallic paint
+matte finish
+chrome accents
+carbon fiber accents
+chrome grille
+alloy wheels
+steel wheels
+wheel size
+tire type
+all-season tires
+winter tires
+performance tires
+off-road tires
+spare tire location
+tire pressure monitoring system
+low tire pressure warning
+brake type
+disc brakes
+drum brakes
+ABS brakes
+stability control
+traction control
+brake assist
+hill-start assist
+tow hooks
+front tow hooks
+rear tow hooks
+heavy-duty suspension
+sporty handling
+electric parking brake
+brake pad wear indicator
+brake force distribution
+fuel tank capacity
+fuel economy
+city fuel economy
+highway fuel economy
+combined fuel economy
+miles per gallon (MPG)
+liters per 100 kilometers (L/100 km)
+fuel type
+regular unleaded fuel
+premium unleaded fuel
+diesel fuel
+electricity
+plug-in hybrid
+EPA rating
+top speed
+engine placement
+front engine
+mid-engine
+rear engine
+fuel tank location
+cargo volume
+max towing capacity
+payload capacity
+bed length
+tailgate
+dual rear wheels
+dual exhaust
+quad exhaust
+exhaust tips
+exhaust sound
+interior trim
+wood trim
+metal trim
+carbon fiber trim
+ambient temperature sensor
+drive modes
+eco mode
+sport mode
+comfort mode
+snow mode
+mud mode
+sand mode
+hill descent control
+hill ascent control
+manual mode
+sport pedals
+manual gear shift
+dual-clutch transmission
+gear shift paddles
+shift lever
+front seat adjustment
+seat position memory
+interior lighting
+trunk capacity
+trunk release
+split-folding rear seats
+power windows
+power locks
+keyless entry system
+remote window controls
+side mirrors
+heated mirrors
+power-folding mirrors
+automatic folding mirrors
+mirror turn signals
+reverse tilt-down mirrors
+tinted windows
+privacy glass
+windshield tint
+rain-sensing wipers
+wiper de-icer
+heated steering wheel
+interior air filtration
+cabin air filter
+battery life
+battery type
+electric drivetrain
+electronic stability control
+fuel tank design
+fuel efficiency technology
+brake force distribution
+water-resistant upholstery
+soundproofing
+driver assistance systems
+safety ratings
+crash test results
+child safety locks
+rear door child safety locks
+first-aid kit
+front airbags
+side curtain airbags
+side-impact airbags
+knee airbags
+rear-seat airbags
+driver attention monitor
+driver alert system
+hands-free trunk opening
+power trunk
+power tailgate
+power liftgate
+hands-free liftgate
+roofline
+cargo floor height
+drivetrain warranty
+basic warranty
+powertrain warranty
+corrosion warranty
+vehicle service interval
+navigation updates
+software updates
+remote vehicle access
+internet connectivity
+Wi-Fi hotspot
+smartphone integration
+Android Auto
+Apple CarPlay
+wireless charging
+phone holder
+infotainment system
+screen size
+screen resolution
+voice recognition system
+home automation integration
+Android integration
+remote diagnostics
+user profiles
+customizable settings
+custom vehicle modes
+dash-mounted display
+pedestrian alert
+in-dash controls
+auxiliary controls
+audio volume
+radio tuning
+touchscreen controls
+speedometer style
+tachometer style
+odometer style
+center console design
+gear shift location
+front bumper design
+rear bumper design
+rear wheel wells
+vehicle underbody design
+side skirts
+fender flares
+cab design
+pillar design
+hood vents
+front-end design
+rear-end design
+license plate holder
+grill insert
+headlight shape
+tail light shape
+door handles
+power door locks
+flush door handles
+side molding
+chrome moldings
+wheel well trims
+roof line trim
+seat belt color
+airbag color
+door upholstery
+door handles
+door trim
+seat upholstery
+floor mats
+footrests
+headliner material
+dashboard design
+glove compartment
+cup holders
+door pockets
+back pockets
+center armrest
+power outlet
+USB charging ports
+cup holder design
+back seat comfort
+back seat recline
+back seat foldability
+child seat anchoring
+latch system
+back seat legroom
+back seat headroom
+legroom space
+headroom space
+adjustable foot pedals
+windshield washer reservoir
+battery life monitoring
+battery charge indicator
+gauge cluster design
+tachometer location
+center-stack design
+trunk pass-through
+cargo tie-downs
+tie-down hooks
+luggage compartment
+cargo divider
+spare tire location
+underfloor storage
+integrated roof rails
+luggage rack
+window tinting
+dual-zone HVAC
+cab temperature adjustment
+zone-based climate control
+carbon footprint
+maintenance interval
+vehicle lifespan
+car maintenance tracker
+safety feature updates
+roadside assistance
+car wash program
+car care packages
+cleaning package
+detailing package
+extended warranties
+navigation subscription
+road hazard coverage
+towing services
+emergency services
+tire replacement services
+tire road hazard coverage
+warranty transfer
+vehicle repair history
+car rental benefits
+crash avoidance systems
+lane assist technology
+night-vision assist
+blind-spot alert
+crash mitigation
+front collision prevention
+collision sensors
+traction control systems
+road departure prevention
+traffic assist
+parking assist
+parking camera system
+automatic emergency steering
+adaptive headlights
+adaptive high beams
+off-road assist
+mud-flap system
+off-road suspension
+off-road tires
+rock-crawling mode
+wheel articulation
+power distribution
+terrain assist
+underbody protection
+skid plates
+winch system
+water fording capability
+sway bar disconnect
+limited slip differential
+locking differential
+performance tires
+sport tires
+tire pressure sensors
+adjustable ride height
+adjustable shock absorbers
+off-road bumpers
+roof-mounted lights
+fog lamps
+spotlights
+tow bar
+tow hooks front
+tow hooks rear
+rear cargo space
+side storage compartments
+folding rear seats
+flat-folding rear seats
+rear seat pass-through
+trunk release
+hands-free trunk opening
+cargo net
+back seat cup holders
+rear air vents
+rear seat storage
+seat pockets
+sunshades
+privacy curtains
+cargo area light
+LED cargo light
+trunk mat
+cargo floor liner
+climate control vents
+rear-seat entertainment system
+rear-seat USB ports
+side window sunshades
+front window sunshades
+cargo hooks
+tie-down points
+roof-mounted storage
+tow hitch
+tow bar attachment
+front tow hook
+rear tow hook
+four-wheel drive
+four-wheel low range
+hill start assist
+hill descent control
+rollover mitigation
+hill-hold assist
+self-leveling suspension
+sport mode button
+eco mode button
+off-road mode button
+comfort mode button
+trail mode button
+rock-crawl mode button
+slippery mode button
+snow mode button
+mud mode button
+sand mode button
+traction control off
+stability control off
+ABS off
+brake bias control
+interior mood lighting
+ambient cabin lighting
+interior color scheme
+vented seats
+heated steering wheel
+heated rear seats
+ventilated rear seats
+custom seat configurations
+rear entertainment screen
+audio system quality
+multimedia display
+touchscreen interface
+audio input options
+FM radio
+AM radio
+Bluetooth streaming
+Bluetooth phone calls
+Apple CarPlay wireless
+Android Auto wireless
+Wi-Fi connection
+remote control for multimedia
+front and rear speakers
+auxiliary cable input
+USB-C charging
+fast USB charging ports
+multi-zone audio control
+home theater system
+remote vehicle shutdown
+remote vehicle start
+vehicle immobilizer
+smart key system
+remote vehicle unlocking
+vehicle alarm system
+keyless go
+electronic parking brake
+foot-operated parking brake
+automatic parking assistance
+lane centering assist
+active lane control
+automatic lane change
+traffic sign recognition
+driver fatigue detection
+adaptive cruise with stop-and-go
+collision mitigation system
+head-up display
+parking assist system
+rear cross-traffic alert
+pedestrian detection system
+traffic jam assist
+turn assist
+turn signal assistant
+voice-controlled navigation
+real-time traffic updates
+navigation rerouting
+pre-collision assist
+post-collision braking
+side-impact airbags
+side curtain airbags
+knee airbags
+rear side airbags
+curtain airbags
+side impact protection
+pedestrian alert system
+emergency braking
+rear-view camera system
+surround-view camera
+front parking sensors
+rear parking sensors
+safety belt reminders
+child safety features
+child safety locks
+child booster seat options
+sunroof opening
+moonroof design
+glass roof panels
+tinted windows
+electric windows
+manual windows
+rear window defroster
+rear window wiper
+heated mirrors
+mirror defrost
+power mirrors
+folding mirrors
+signal mirrors
+heated side mirrors
+auto-dimming side mirrors
+door handles with lights
+electrochromatic mirrors
+mirror memory settings
+side mirror camera
+blind spot monitoring cameras
+reverse tilt-down mirrors
+side impact door beams
+side curtain rollover airbags
+pedestrian-friendly front design
+low-speed collision mitigation
+road surface monitoring
+adaptive headlights with cornering
+driving light assist
+automatic high beams
+auto-leveling headlights
+integrated LED daytime running lights
+auto-folding mirrors
+auto-opening trunk
+hands-free liftgate
+electric power liftgate
+roof rails for luggage
+roof rack crossbars
+rear privacy windows
+cabin filtration system
+air ionizer
+climate filter
+interior air quality system
+heated windshield
+windshield defroster
+rain-sensing wipers
+wiper interval control
+windshield wiper deicer
+adjustable wiper speed
+interior storage compartments
+center console organizer
+front console organizer
+glove box
+cup holder organizer
+overhead storage
+rear seat pockets
+armrest storage
+rear cargo cover
+rear storage bin
+tailgate step
+tailgate assist
+power tailgate opener
+integrated tailgate ladder
+multi-function tailgate
+split tailgate
+soft-opening tailgate
+heavy-duty tailgate
+fold-down tailgate
+carpeted floor mats
+rubber floor mats
+all-weather floor mats
+trunk organizer
+cargo organizer
+cargo netting
+fold-flat rear seats
+third-row seat storage
+rear cargo tray
+cargo divider
+tailgate lock
+keyless entry with hands-free trunk
+power seat adjustment controls
+seat lumbar support
+front passenger seat power adjustment
+heated front seats
+reclining rear seats
+rear passenger side sliding doors
+sliding rear windows
+power sliding doors
+manual sliding doors
+separate rear seatbacks
+folding second-row seats
+fold-flat second-row seats
+split rear seats
+rear seat pass-through option
+rear passenger headrests
+reclining rear seats
+heated rear seats
+folding third-row seating
+memory seat system
+seat comfort controls
+multizone climate control
+dual-zone air conditioning
+independent zone climate control
+rear air conditioning vents
+ventilated front seats
+front-seat massage feature
+back seat lumbar support
+auto climate control system
+dual-zone air conditioning system

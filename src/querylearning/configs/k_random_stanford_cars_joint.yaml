@@ -1,0 +1,36 @@
+dataset: stanford_cars
+dataroot: ./data
+save_dir: ./snapshots
+fp: false
+devid: 0
+num_workers: 7
+wandb: true
+val_every: 10
+log_every: 2
+seed: 1
+
+queries: 
+  init: querydict/k_random_stanford_cars.txt
+  universe: querydict/universe_stanford_cars.txt
+  quantize: true  # Quantizes query embeddings
+  quantized_answers: true  # Quantizes query answers
+  clip_model_type: ViT-L/14
+
+arch:
+  classifier: shallow_mlp
+  querier: shallow_mlp
+  posterior_threshold: 0.85
+  tau: 1.0  # Temperature for STE in querier
+  dropout: 0.0
+
+train:
+  random:  # Random sampling phase
+    epochs: 1500
+  biased:  # Biased sampling phase
+    epochs: 1500
+  lr: 0.00001
+  batch_size: 256
+
+  sampling:
+    low: 0  # Min num queries sampled
+    high: 128  # Max num queries sampled
