@@ -91,24 +91,6 @@ def get_dataloaders(
     return trainloader, valloader
 
 
-def get_Xformed_dataset(
-    datasetname: str,
-    dataroot: str,
-    preprocess: tf.transforms
-) -> Dataset:
-    """Returns Xformed (transformed) dataset e.g. where transform is
-    CLIP encoder.
-    """
-    # TODO: give option to return bigfile imlementation of
-    # TransformedDataset
-    return TransformedDatasetInMemory(
-        datasetname=datasetname,
-        Xform=identityXform,
-        dataroot=dataroot,
-        preprocess=preprocess
-    )
-
-
 def get_img_dataset(
     datasetname: str,
     train: bool,
@@ -326,7 +308,7 @@ class TransformedDatasetMultiFiles(AbstractTransformedDataset):
             preprocess=self.preprocess
         )
         desc = f'Precomputing Xformed Dataset with {self.Xform}'
-        with tqdm(total=len(dataloader), colour='blue', desc=desc) as pbar:
+        with tqdm(total=len(dataset), colour='blue', desc=desc) as pbar:
             for i, (x, y) in enumerate(dataset):
                 print(f'\rPrecomputing Xform {self.Xform} {i}', end='')
                 # Get Xform
@@ -348,91 +330,3 @@ class TransformedDatasetMultiFiles(AbstractTransformedDataset):
         y = torch.tensor(self.labels[idx])
         return x, y
 
-
-def identityXform(x): return x
-
-
-if __name__ == '__main__':
-    dirout = './data/xformed'
-    dataroot = './data'
-    preprocess = tf.ToTensor()
-    """
-    Naive Dataset implementation loading each entry from seperate file
-    """
-    dataset = TransformedDatasetMultiFiles(
-        datasetname='toy',
-        dirout=dirout,
-        Xform=identityXform,
-        train=True,
-        dataroot=dataroot,
-        preprocess=preprocess
-    )
-    tic1 = time.process_time()
-    for i, (x, y) in enumerate(dataset):
-        pass
-    time_spent(tic1, 'loop over naive dataset')
-
-    """
-    bigfile implementation loading each entry from single binary bigfile
-    """
-    bigFileBuilder = BigFileBuilder(
-        filename='testBigFile.dat',
-        xform=identityXform,
-        kPickle=False
-    )
-    bigFileBuilder.doit(
-        dataset=get_img_dataset(
-                    datasetname='toy',
-                    train=True,
-                    dataroot=dataroot,
-                    preprocess=preprocess
-                ),
-        kZip=False
-    )
-    dataset = bigFileBuilder.bigfile
-    tic1 = time.process_time()
-    for i, (x, y) in enumerate(dataset):
-        pass
-    time_spent(tic1, 'loop over bigfile dataset')
-
-    """
-    Tests TransformedDatasetInMemory
-    """
-    traindataset = TransformedDatasetInMemory(
-        datasetname='toy',
-        Xform=identityXform,
-        train=True,
-        dataroot=dataroot,
-        preprocess=preprocess
-    )
-    tic1 = time.process_time()
-    for i, (x, y) in enumerate(traindataset):
-        pass
-    time_spent(tic1, 'loop over dataset saved fully in RAM')
-
-    valdataset = TransformedDatasetInMemory(
-        datasetname='toy',
-        Xform=identityXform,
-        train=False,
-        dataroot=dataroot,
-        preprocess=preprocess
-    )
-
-    trainloader, valloader = get_dataloaders(
-        batch_size=32,
-        num_workers=4,
-        traindata=traindataset,
-        valdata=valdataset
-    )
-
-    x, y = next(iter(trainloader))
-    print(f'x.shape {x.shape}')
-    print(f'y.shape {y.shape}')
-
-    for name in ['cifar10']:
-        get_img_dataset(
-            datasetname=name,
-            train=True,
-            dataroot=dataroot,
-            preprocess=preprocess
-        )
